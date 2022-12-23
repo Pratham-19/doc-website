@@ -19,7 +19,7 @@ This section describes how to connect to QuestDB using a variety of tools and pr
 
 ## Deployment
 
-- [AWS Marketplace AMI]("#")
-- [Kubernetes]("#")
-- [Google Cloud Platform]("#")
-- [DigitalOcean Droplet]("#")
+- [AWS Marketplace AMI](deployment/intro)
+- [Kubernetes](deployment/intro)
+- [Google Cloud Platform](deployment/intro)
+- [DigitalOcean Droplet](deployment/intro)

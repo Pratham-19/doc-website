@@ -20,11 +20,19 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          // lastVersion: "current",
+          // versions: {
+          //   current: {
+          //     label: "1.1.0",
+          //     path: "1.1.0",
+          //   },
+          // },
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           // editUrl:
           //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
+        blog: false,
         // blog: {
         //   showReadingTime: true,
         //   // Please change this to your repo.

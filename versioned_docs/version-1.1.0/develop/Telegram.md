@@ -8,26 +8,31 @@ You can create your own Telegram bot easily by using our bot section...
 
 ## Create a Telegram Bot
 
-Choose `Telegram Icon` and click on it under bot section
+1. Choose `Telegram Icon` and click on it under bot section
 
-![Docs Version Dropdown](./img/localeDropdown.png)
+![Telegram Icon](./img/telegram-icon.png)
 
-Enter your contract address, telegram bot token, chat id and ABi of your smart contract.
-:::tip
+2. Enter your contract address, telegram bot token, chat id and ABi of your smart contract.
+
+:::info
 You can get telegram bot token from [BotFather](https://t.me/BotFather), chat id from [userinfobot](https://t.me/userinfobot) and ABI from [Etherscan](https://etherscan.io/)
 :::
 
-![Docs Version Dropdown](./img/localeDropdown.png)
+![Telegram Bot form](./img/telegram-contract-form.png)
 
-:::caution
+:::danger Caution
 Make sure your contract is verified and ABI is not null
 :::
 
-Select the events you want to listen to and click on `Create Bot` button
+3. Select the events you want to listen to and click on `Next` button
 
-![Docs Version Dropdown](./img/localeDropdown.png)
+![Telegram bot events](./img/select-events.png)
 
-Pay for your bot and download the zip file
+:::caution
+Select at least one event.
+:::
+
+4. Finally, pay for your bot and download the zip file
 
 ![Docs Version Dropdown](./img/localeDropdown.png)
 

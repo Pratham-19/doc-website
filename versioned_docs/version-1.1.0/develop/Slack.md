@@ -8,30 +8,35 @@ You can create your own Slack bot easily by using our bot section...
 
 ## Create a Slack Bot
 
-Choose `Slack Icon` and click on it under bot section
+1. Choose `Slack Icon` and click on it under bot section
 
-![Docs Version Dropdown](./img/localeDropdown.png)
+![Slack Icon](./img/slack-icon.png)
 
-Enter your contract address, telegram bot token, chat id and ABi of your smart contract.
-:::tip
-You can get telegram bot token from [BotFather](https://t.me/BotFather), chat id from [userinfobot](https://t.me/userinfobot) and ABI from [Etherscan](https://etherscan.io/)
+2. Enter your contract address, telegram bot token, chat id and ABi of your smart contract.
+
+:::info
+You can get slack bot url from [here](https://api.slack.com/bot-users), and ABI from [Etherscan](https://etherscan.io/)
 :::
 
-![Docs Version Dropdown](./img/localeDropdown.png)
+![Slack Bot form](./img/telegram-contract-form.png)
 
-:::caution
+:::danger Caution
 Make sure your contract is verified and ABI is not null
 :::
 
-Select the events you want to listen to and click on `Create Bot` button
+3. Select the events you want to listen to and click on `Next` button
+
+![Slack bot events](./img/select-events.png)
+
+:::caution
+Select at least one event.
+:::
+
+4. Finally, pay for your bot and download the zip file
 
 ![Docs Version Dropdown](./img/localeDropdown.png)
 
-Pay for your bot and download the zip file
-
-![Docs Version Dropdown](./img/localeDropdown.png)
-
-Congratulations, you have made your own Slack bot!
+Congratulations, you have made your own Telegram bot!
 
 ## Deploy your bot
 

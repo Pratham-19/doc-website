@@ -46,4 +46,4 @@ Congratulations, you have made your own Telegram bot!
 
 ## Deploy your bot
 
-To deploy your bot, checkout our [deployment](/deployment/intro) section.
+To deploy your bot, checkout our [deployment](/deployment/credence) section.

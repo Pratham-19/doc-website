@@ -1,47 +1,25 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+QuestDB is a relational column-oriented database designed for time series and event data. It uses SQL with extensions for time series to assist with real-time analytics. These pages cover core concepts of QuestDB, including setup steps, usage guides, and reference documentation for syntax, APIs and configuration.
 
-## Getting Started
+## Develop
 
-Get started by **creating a new site**.
+This section describes how to connect to QuestDB using a variety of tools and programming languages through our various network endpoints.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- Connect to the database through our various endpoints. Learn which protocol is best for different use cases
 
-### What you'll need
+- Insert data using the InfluxDB Line Protocol, PostgreSQL wire protocol or our HTTP REST API
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- Query data with SQL queries via the PostgreSQL Wire Protocol or exported to JSON or CSV via our HTTP REST API
 
-## Generate a new site
+## Deployment
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- [AWS Marketplace AMI](deployment/intro)
+- [Kubernetes](deployment/intro)
+- [Google Cloud Platform](deployment/intro)
+- [DigitalOcean Droplet](deployment/intro)

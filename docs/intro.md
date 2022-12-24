@@ -21,5 +21,5 @@ This section describes how to connect to QuestDB using a variety of tools and pr
 
 - [Our Service](deployment/credence)
 - [AWS Marketplace AMI](deployment/aws)
-- [Google Cloud Platform](deployment/google-clod)
+- [Google Cloud Platform](deployment/google-cloud)
 - [Azure](deployment/azure)
